@@ -1,9 +1,8 @@
 import React from "react";
 import { Trans } from "@lingui/react";
-import { Wrapper } from "./styles";
 
 export const Home = () => (
-  <Wrapper>
+  <h1>
     <Trans id="Hola prueba de wolox" />
-  </Wrapper>
+  </h1>
 );
