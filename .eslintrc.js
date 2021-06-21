@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   parser: "babel-eslint",
   extends: [
@@ -60,7 +62,7 @@ module.exports = {
     "react/button-has-type": "off",
     "react/jsx-filename-extension": [
       "error",
-      { extensions: [".js", ".jsx", "tsx"] },
+      { extensions: ["tsx", "ts"] },
     ],
     "react/jsx-wrap-multilines": 0,
     "react/no-array-index-key": 0,
@@ -96,6 +98,11 @@ module.exports = {
   settings: {
     react: {
       version: "detect",
+    },
+    'import/resolver': {
+      alias: {
+        map: [['@', path.resolve(__dirname, 'src')]],
+      },
     },
   },
   globals: {

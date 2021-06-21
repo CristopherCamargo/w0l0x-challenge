@@ -1,0 +1,1 @@
+/*eslint-disable*/module.exports={messages:{"Hola prueba de wolox":"Hola prueba de wolox","hello":"hello"}};

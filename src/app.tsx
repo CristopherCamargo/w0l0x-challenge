@@ -1,3 +1,13 @@
-import React from "react";
+import React, { Suspense } from "react";
+import { LinguiHOC } from "./hocs";
+import { AppRoutes } from "./routes";
 
-export const App = () => <div>Funciona con webpack</div>;
+export const App = () => {
+  return (
+    <Suspense fallback={<>Loading...</>}>
+      <LinguiHOC>
+        <AppRoutes />
+      </LinguiHOC>
+    </Suspense>
+  );
+};
