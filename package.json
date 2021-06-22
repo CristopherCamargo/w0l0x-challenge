@@ -4,7 +4,7 @@
   "description": "wolox landing page and pokemon list challenge",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack serve --port 3000",
+    "dev": "webpack serve --port 3003",
     "extract": "lingui extract",
     "compile": "lingui compile"
   },
@@ -30,6 +30,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-sonarjs": "^0.5.0",
+    "file-loader": "^6.2.0",
     "module": "^1.2.5",
     "node-polyfill-webpack-plugin": "^1.1.3",
     "node-sass": "^6.0.0",
@@ -39,7 +40,9 @@
     "sass-loader": "^12.1.0",
     "source-map-loader": "^3.0.0",
     "style-loader": "^2.0.0",
+    "svg-inline-loader": "^0.8.2",
     "ts-loader": "^9.2.3",
+    "ttf-loader": "^1.0.2",
     "typescript": "^4.3.4",
     "webpack": "^5.39.1",
     "webpack-cli": "^4.7.2",

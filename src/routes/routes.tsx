@@ -1,8 +1,8 @@
 import { IRoute } from "./types";
-import { getLazyNamedComponent } from "../lib";
+import { getLazyNamedComponent } from "@/lib";
 
-const Home = getLazyNamedComponent(() => import("../components/pages"), "Home");
-const List = getLazyNamedComponent(() => import("../components/pages"), "List");
+const Home = getLazyNamedComponent(() => import("@/components/pages"), "Home");
+const List = getLazyNamedComponent(() => import("@/components/pages"), "List");
 
 export const routes: IRoute[] = [
   {

@@ -1,6 +1,6 @@
 import React from "react";
 import { I18nProvider } from "@lingui/react";
-import { i18n } from "../locales";
+import { i18n } from "@/locales";
 
 type Props = {
   children: JSX.Element;
