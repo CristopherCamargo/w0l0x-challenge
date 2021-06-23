@@ -1,0 +1,24 @@
+@import "./theme.scss";
+
+button {
+  border-radius: $buttonBorderRadius;
+  border: $buttonBorderWidth solid;
+  border-color: $primary;
+  padding: 10px 60px;
+  outline: none;
+}
+
+button.primary {
+  background-color: $primary;
+  color: $white;
+}
+
+button.secondary {
+  background-color: $white;
+  color: $primary;
+}
+
+button.tertiary {
+  background-color: transparent;
+  color: $white;
+}

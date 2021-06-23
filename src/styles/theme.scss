@@ -1,0 +1,19 @@
+// fonts
+$montserrat: "../assets/fonts/Montserrat";
+
+@font-face {
+  // This is parsed as a normal function call that takes a quoted string.
+  src: url("#{$montserrat}/Montserrat-Medium.ttf") format("truetype");
+
+  font-family: "Montserrat";
+  font-weight: normal;
+}
+
+// colors
+$primary: #2aa7df;
+$white: white;
+
+
+// buttons
+$buttonBorderWidth: 1px;
+$buttonBorderRadius: 30px;
